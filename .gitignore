@@ -1,0 +1,30 @@
+# Chaves e credenciais — NUNCA commitar
+*.json
+!biblioteca-app/package.json
+!biblioteca-app/tsconfig*.json
+!biblioteca-app/eslint.config.js
+
+# Arquivo de chave Firebase Admin
+*firebase-adminsdk*.json
+serviceAccountKey.json
+
+# Env vars
+.env
+.env.local
+.env.production
+
+# Excel do acervo (grande e não é código)
+*.xlsx
+
+# Dependências
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Sistema
+.DS_Store
+*.log
+.venv/
+__pycache__/
